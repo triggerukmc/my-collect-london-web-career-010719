@@ -3,6 +3,6 @@ def my_collect(language)
   while iteration < language.length
   new_lang << yield(language[iteration])
 end
-language
+new_lang
 end
 
