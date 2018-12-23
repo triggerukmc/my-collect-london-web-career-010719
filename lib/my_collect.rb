@@ -1,8 +1,7 @@
 def my_collect(language)
   iteration = 0
   while iteration < language.length
-  new_lang << yield(language[iteration]) do {|lang|
-  lang.upcase}
+  new_lang << yield(language[iteration])
 end
 language
 end
